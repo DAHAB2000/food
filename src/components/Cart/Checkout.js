@@ -1,5 +1,5 @@
 import { useRef, useState } from 'react';
-
+import React from 'react';
 import classes from './Checkout.module.css';
 
 const isEmpty = (value) => value.trim() === '';
